@@ -5,7 +5,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Open Sans1', sans-serif;
-    border: 1px solid red;
+  
 }
 body {
     width: 100%;
@@ -14,7 +14,6 @@ body {
 .header-background {
     width: 100%;
     background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('./images/hero-4.png') ;
-    object-fit: contain;
     background-size: 100% 100%;
   
 }
@@ -36,7 +35,7 @@ ul{
     float: left;
     list-style: none;
     line-height: 68px;
-    width: 67%;
+    width: 62%;
     margin: 0 2% 0 7%;
 }
 ul li{ 
@@ -67,6 +66,7 @@ color: #000000;
     border-radius: 22px;
     line-height: 68px;   
     font-weight: 600;
+    margin-left: 4%;
 }
 header {
     text-align: center;
