@@ -70,7 +70,7 @@ header {
     text-align: center;
     
 }
-header p {
+.header-p-1 {
     font-size: 30px;
     color: #ffffff;
    
@@ -96,7 +96,7 @@ background-color: #ffffff; */
     background-color: #ffffff;
     height: 53px;
 }
-header div {
+.header-div-1 {
     width: 65%;
     display: inline-block;
     border: 5px solid rgba(155, 139, 139, 0.3);
