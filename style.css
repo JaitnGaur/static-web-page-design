@@ -4,19 +4,19 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Open Sans1', sans-serif;
-  
+    font-family: 'Open Sans1', sans-serif; 
 }
 body {
     width: 100%;
 }
-
 .header-background {
     width: 100%;
     background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('./images/hero-4.png') ;
     background-size:cover;
     background-repeat: no-repeat;
-  
+  }
+.color-white {
+    color: #ffffff;
 }
 
 .brand-logo {
@@ -29,24 +29,20 @@ nav {
     width: 100%;
     box-shadow: 0 2px 4px 0 rgba(136, 136, 136, 0.5);   
     background: linear-gradient(rgba(255,255,255,0.2),rgba(255,255,255,0.2));
-    align-items: center;
 }
-
 nav ul {
- 
-    min-width: 586px;
+     min-width: 586px;
     max-width: 664px;
     list-style: none;
     line-height: 68px;
     width: 65%;
     display: inline-block;
+    color: white;
     
 }
-
 .lists {
     font-size: 14px;
     text-decoration: none;
-    color: #ffffff;
     float:left;
     font-weight: 700;
 }
@@ -54,7 +50,7 @@ nav ul {
     margin-right: 3%;
 }
 .lists a {
-    text-decoration: none;color: #ffffff
+    text-decoration: none;
 }
 .lists a:hover {
 color: #000000;
@@ -71,7 +67,6 @@ color: #000000;
     background-color: #2086fb;
     font-weight: 600;
     border-radius: 22px;
-    color: #ffffff;
 }
 header {
     text-align: center;
@@ -79,8 +74,6 @@ header {
 }
 .header-p-1 {
     font-size: 30px;
-    color: #ffffff;
-   
     font-weight: 600;
     margin: 148px 15% 30px 15%;
   
@@ -112,8 +105,7 @@ background-color: #ffffff; */
     margin: 0 auto;
     margin-bottom: 229px;
     background: linear-gradient(rgba(255,255,255,0.4),rgba(255,255,255,0.4));
-    position: relative;
-   
+    position: relative; 
 }
 main {
     width: 100%;
@@ -165,13 +157,11 @@ footer {
    clear: both;
 }
 .footer-para-1 {
-    color: #ffffff;
     font-size: 30px;
     margin-bottom: 4px;
     font-weight: 600;
 }
 .footer-para-2 {
-    color: #ffffff;
     font-size: 16px;
     margin-bottom: 48px;
     font-weight: 600;
@@ -182,7 +172,6 @@ footer {
     margin-bottom: 137px;
 }
 .footer-para-3 {
-    color:#ffffff;
     font-size: 14px;
     padding: 25px 0 24px 40px;
     font-weight: 600;
