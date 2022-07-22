@@ -14,14 +14,25 @@ body {
     background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('./images/hero-4.png') ;
     background-size:cover;
     background-repeat: no-repeat;
+    position: relative;
+    text-align: center;
+    height: 568px;
   }
+.center-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 65%;
+    max-width: 926px;
+}
 .color-white {
     color: #ffffff;
 }
 
 .brand-logo {
     float: left;
-    margin-left: 48px;
+    margin-left: 40px;
     margin-top: 14px;
     
 }
@@ -31,11 +42,10 @@ nav {
     background: linear-gradient(rgba(255,255,255,0.2),rgba(255,255,255,0.2));
 }
 nav ul {
-     min-width: 586px;
-    max-width: 664px;
+    
+    max-width: 734px;
     list-style: none;
     line-height: 68px;
-    width: 65%;
     display: inline-block;
     color: white;
     
@@ -47,7 +57,7 @@ nav ul {
     font-weight: 700;
 }
 .list-margin {
-    margin-right: 3%;
+    margin-right: 28px;
 }
 .lists a {
     text-decoration: none;
@@ -58,7 +68,7 @@ color: #000000;
 .try-button {
     font-size: 15px;
     float: right;  
-    margin-right: 48px;
+    margin-right: 40px;
     margin-top: 14px;
 }
 .btns {
@@ -75,7 +85,7 @@ header {
 .header-p-1 {
     font-size: 30px;
     font-weight: 600;
-    margin: 148px 15% 30px 15%;
+    margin-bottom: 30px;
   
 }
 .header-inp {
@@ -96,14 +106,13 @@ background-color: #ffffff; */
     background-color: #ffffff;
     height: 53px;
 }
-.header-div-1 {
-    width: 65%;
+.header-inp-box {
+    width: 94%;
     max-width: 1000px;
     display: inline-block;
     border: 5px solid rgba(155, 139, 139, 0.3);
     border-radius: 4px;
     margin: 0 auto;
-    margin-bottom: 229px;
     background: linear-gradient(rgba(255,255,255,0.4),rgba(255,255,255,0.4));
     position: relative; 
 }
@@ -111,13 +120,13 @@ main {
     width: 100%;
      background-color: #ffffff;
 }
-.section-1 {
+.container {
     max-width: 1400px;
     margin: 0 auto;
+    padding: 40px 20px;
 }
 .main-ul {
     width: 100%;
-    margin: 32px 0;
     display: inline-block;
 }
 .box {
@@ -154,7 +163,6 @@ footer {
    background-color:#323232;
    position:relative;
    padding-top: 64px;
-   clear: both;
 }
 .footer-para-1 {
     font-size: 30px;
@@ -166,7 +174,7 @@ footer {
     margin-bottom: 48px;
     font-weight: 600;
 }
-.footer-a-1 {
+.request-btn {
     font-size: 15px;
     display: inline-block;
     margin-bottom: 137px;
