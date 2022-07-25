@@ -9,7 +9,7 @@
 body {
     width: 100%;
 }
-.header-background {
+.hero_section {
     width: 100%;
     background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('./images/hero-4.png') ;
     background-size:cover;
@@ -17,6 +17,11 @@ body {
     position: relative;
     text-align: center;
     height: 568px;
+    
+  }
+  .hero-container {
+    max-width: 926px;
+    margin: 0 auto;
   }
 .center-box {
     position: absolute;
@@ -24,12 +29,11 @@ body {
     left: 50%;
     transform: translate(-50%,-50%);
     width: 65%;
-    max-width: 926px;
+    max-width: 936px;
 }
 .color-white {
     color: #ffffff;
 }
-
 .brand-logo {
     float: left;
     margin-left: 40px;
@@ -80,6 +84,9 @@ color: #000000;
 }
 header {
     text-align: center;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
     
 }
 .header-p-1 {
@@ -107,23 +114,25 @@ background-color: #ffffff; */
     height: 53px;
 }
 .header-inp-box {
-    width: 94%;
-    max-width: 1000px;
+    width: 100%;
+    max-width: 936px;
     display: inline-block;
     border: 5px solid rgba(155, 139, 139, 0.3);
     border-radius: 4px;
     margin: 0 auto;
     background: linear-gradient(rgba(255,255,255,0.4),rgba(255,255,255,0.4));
-    position: relative; 
 }
 main {
     width: 100%;
      background-color: #ffffff;
 }
+.box-section {
+    padding: 40px 0;
+}
 .container {
-    max-width: 1400px;
+    max-width: 1360px;
     margin: 0 auto;
-    padding: 40px 20px;
+    padding:0 20px;
 }
 .main-ul {
     width: 100%;
@@ -151,25 +160,31 @@ main {
     font-size: 18px;
     color: #4a4a4a;
     font-weight: 600;
+    text-decoration: none;
+}
+.text-decoration {
+    text-decoration: none;
+    color:#4a4a4a;;
 }
 .box p:nth-child(3) {
     font-size: 16px;
     line-height: 26px;
     color: #858585;
 }
-footer {
+.more-info {
     width: 100%;
    text-align: center;
    background-color:#323232;
    position:relative;
    padding-top: 64px;
+   padding-bottom: 137px;
 }
-.footer-para-1 {
+.info-para-1 {
     font-size: 30px;
     margin-bottom: 4px;
     font-weight: 600;
 }
-.footer-para-2 {
+.info-para-2 {
     font-size: 16px;
     margin-bottom: 48px;
     font-weight: 600;
@@ -177,15 +192,17 @@ footer {
 .request-btn {
     font-size: 15px;
     display: inline-block;
-    margin-bottom: 137px;
 }
-.footer-para-3 {
+
+footer {
+    position:relative;
+}
+.footer-para-1 {
     font-size: 14px;
     padding: 25px 0 24px 40px;
     font-weight: 600;
     background-color: #252525;
     text-align: left;
-
 }
 .scroll {
 height: 28px;
@@ -197,4 +214,5 @@ bottom: 50px;
 text-decoration: none;
 color: #979797;
 line-height: 35px;
+text-align: center;
 }
