@@ -17,7 +17,6 @@ header {
     
 }
 nav {
-    width: 100%;
     box-shadow: 0 2px 4px 0 rgba(136, 136, 136, 0.5);   
     background: linear-gradient(rgba(255,255,255,0.2),rgba(255,255,255,0.2));
 }
@@ -25,7 +24,6 @@ nav {
     float: left;
     margin-left: 40px;
     margin-top: 14px;
-    
 }
 nav ul {
     
@@ -34,6 +32,7 @@ nav ul {
     line-height: 68px;
     display: inline-block;
     color: white;
+    vertical-align: middle;
     
 }
 .lists {
@@ -43,7 +42,7 @@ nav ul {
     font-weight: 700;
 }
 .list-margin {
-    margin-right: 28px;
+    margin-right: 31px;
 }
 .lists a {
     text-decoration: none;
@@ -52,7 +51,6 @@ nav ul {
 color: #000000;
 }
 .try-button {
-    font-size: 15px;
     float: right;  
     margin-right: 40px;
     margin-top: 14px;
@@ -63,15 +61,15 @@ color: #000000;
     background-color: #2086fb;
     font-weight: 600;
     border-radius: 22px;
+    font-size: 15px;
 }
 .hero_section {
-    width: 100%;
     background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('./images/hero-4.png') ;
     background-size:cover;
     background-repeat: no-repeat;
     position: relative;
     text-align: center;
-    height: 568px;
+    min-height: 568px;
     
   }
 .hero-center-box {
@@ -79,25 +77,32 @@ color: #000000;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    width: 65%;
+    width: 100%;
+}
+.hero-container {
     max-width: 936px;
+    padding: 0 20px;
+    margin: 0 auto;
+    box-sizing: content-box;
 }
 .color-white {
     color: #ffffff;
 }
-.hero-p-1 {
+.hero-heading {
     font-size: 30px;
     font-weight: 600;
     margin-bottom: 30px;
 }
 .hero-inp-box {
-    width: 100%;
-    max-width: 936px;
-    display: inline-block;
     border: 5px solid rgba(155, 139, 139, 0.3);
     border-radius: 4px;
     margin: 0 auto;
     background: linear-gradient(rgba(255,255,255,0.4),rgba(255,255,255,0.4));
+}
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
 }
 .hero-inp {
 height: 53px;
@@ -116,7 +121,6 @@ float: left;
     height: 53px;
 }
 main {
-    width: 100%;
      background-color: #ffffff;
 }
 .box-section {
@@ -128,7 +132,6 @@ main {
     padding:0 20px;
 }
 .box-ul {
-    width: 100%;
     display: inline-block;
 }
 .box {
@@ -165,31 +168,29 @@ main {
     color: #858585;
 }
 .more-info {
-    width: 100%;
    text-align: center;
    background-color:#323232;
    position:relative;
-   padding-top: 64px;
-   padding-bottom: 137px;
+   padding: 64px 0;
 }
-.info-para-1 {
+.info-heading {
     font-size: 30px;
     margin-bottom: 4px;
     font-weight: 600;
 }
-.info-para-2 {
+.info-para-1 {
     font-size: 16px;
     margin-bottom: 48px;
     font-weight: 600;
 }
 .request-btn {
-    font-size: 15px;
     display: inline-block;
+    margin-bottom:71px;
 }
 footer {
     position:relative;
 }
-.footer-para-1 {
+.footer-para {
     font-size: 14px;
     padding: 25px 0 24px 40px;
     font-weight: 600;
